@@ -3,7 +3,7 @@ This project aims to help developers and DBAs to see graphically, all database o
 
 # Requirements
 1.To make it work, you first need to create a DB view like this one:
-```
+```SQL
 CREATE VIEW [dbo].[vDBObjectDependencyMapping]
 AS
 SELECT 
