@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WellcomeMessage" value="Welcome to DB Visual Map Dependencies!" />
+    <text name="LearnMore" value="Learn more" />
+    <text name="AboutFormat" value="About {0}" />
+    <text name="ForMoreInformation" value="For more information" />
+  </texts>
+</localizationDictionary>
