@@ -1,5 +1,5 @@
 # DBVisualMapDependencies
-This project aims to help developers and DBAs to see graphically, all database objects dependencies. It's buit on top of AspnetBoilerplate and D3.js
+This project aims to help developers and DBAs to see graphically, all database objects dependencies. It's buit on top of [AspnetBoilerplate](http://aspnetboilerplate.com/) and [D3.js](http://d3js.org/)
 
 # Requirements
 1.To make it work, you first need to create a DB view like this one:
