@@ -2,7 +2,7 @@
 This project aims to help developers and DBAs to see graphically, all database objects dependencies. It's buit on top of AspnetBoilerplate and D3.js
 
 # Requirements
-To make it work, you first need to create a DB view like this one
+1.To make it work, you first need to create a DB view like this one:
 ```
 CREATE VIEW [dbo].[vDBObjectDependencyMapping]
 AS
@@ -53,3 +53,5 @@ referenced
 ON 
 	referencing.dbobject_id = referenced.parent_dbobject_id
 ```
+
+2.and point the connection string to the DB you want to visualize the dependencies
