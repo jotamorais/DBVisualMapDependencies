@@ -31,6 +31,8 @@ namespace DBVisualMapDependencies
 			//Called specific GetAllWithChildrens method of DBObject repository.
 			var dbObjectDependencies = _dbObjectRepository.GetAllWithChildrens(input.DbObjectId);
 
+
+
 			//Used AutoMapper to automatically convert List<DBVisualMapDependencies> to List<DBOjectDTO>.
 			return new GetDependenciesOutput
 				   {
