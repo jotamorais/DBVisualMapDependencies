@@ -28,6 +28,7 @@ namespace DBVisualMapDependencies
 
 		public GetDependenciesOutput GetDependencies(GetDependenciesInput input)
 		{
+			Logger.Info("Get list DB Object dependencies: " + input);
 			//Called specific GetAllWithChildrens method of DBObject repository.
 			var dbObjectDependencies = _dbObjectRepository.GetAllWithChildrens(input.DbObjectId);
 
